@@ -16,4 +16,4 @@ tg=st.number_input("   ",min_value=0)
 x=0
 while round(((p+x)/(t+x)*100),2)<tg:
 	x+=1
-st.write("Attend ",x," more Classes!!")
+st.write("Attend ",x," more Classes!!😿")
