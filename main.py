@@ -6,7 +6,7 @@ st.subheader("Present Attendance")
 a=round((p/t)*100,2)
 st.write(a)
 st.subheader("BUNK Meter")
-b=st.number_input(" ",min_value=0)
+b=st.number_input("Enter number of bunks",min_value=0)
 st.subheader("Attendance after Bunking")
 t+=b
 a=round((p/t)*100,2)
